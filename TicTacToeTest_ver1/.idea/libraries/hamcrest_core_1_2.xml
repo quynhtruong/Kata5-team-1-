@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="hamcrest-core-1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-core-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-core-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-library-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-library-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-core-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-core-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-library-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/goos-code-master/lib/develop/hamcrest-library-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

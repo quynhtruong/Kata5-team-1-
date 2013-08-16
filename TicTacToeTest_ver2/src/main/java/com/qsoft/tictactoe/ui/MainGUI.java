@@ -1,12 +1,11 @@
-package com.qsoft.tictactoe;
+package com.qsoft.tictactoe.ui;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
+import com.qsoft.tictactoe.ui.controller.ActionEventListener;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * Created with IntelliJ IDEA.
@@ -41,33 +40,45 @@ public class MainGUI extends JFrame
         setName("TicTacToeGame");
         setSize(600, 600);
         setVisible(true);
-        btStart.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                lbGameStatus.setText("Game Started");
-            }
-        });
-        btStop.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                lbGameStatus.setText("Game Stopped");
-                lbGameResult.setText("No One Wins");
-            }
-        });
-
     }
 
-    public static void main(String[] args)
+    //getter and setter
+
+
+    public JButton getBtStart()
     {
-        JFrame frame = new JFrame("MainGUI");
-        frame.setContentPane(new MainGUI().panel1);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        return btStart;
+    }
+
+    public JButton getBtStop()
+    {
+        return btStop;
+    }
+
+    public JLabel getLbGameStatus()
+    {
+        return lbGameStatus;
+    }
+
+    public void setLbGameStatus(JLabel lbGameStatus)
+    {
+        this.lbGameStatus = lbGameStatus;
+    }
+
+    public JLabel getLbGameResult()
+    {
+        return lbGameResult;
+    }
+
+    public void setLbGameResult(JLabel lbGameResult)
+    {
+        this.lbGameResult = lbGameResult;
+    }
+
+    public void addListener(ActionEventListener listener)
+    {
+        btStart.addActionListener(listener);
+        btStop.addActionListener(listener);
     }
 
     {

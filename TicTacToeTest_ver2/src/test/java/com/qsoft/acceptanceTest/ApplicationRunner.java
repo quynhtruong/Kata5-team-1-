@@ -13,6 +13,7 @@ public class ApplicationRunner
 {
     private TicTacToeMain ticTacToeMain = new TicTacToeMain();
     private TicTacToeDriver ticTacToeDriver = new TicTacToeDriver(1000);
+
     public void showMainUI()
     {
             ticTacToeMain.showMainUI();
@@ -42,5 +43,10 @@ public class ApplicationRunner
     public void stopGame()
     {
         ticTacToeDriver.button("btStop").click();
+    }
+
+    public void releaseMemory()
+    {
+        ticTacToeDriver.dispose();
     }
 }

@@ -1,5 +1,6 @@
 package com.qsoft.acceptanceTest;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -33,10 +34,14 @@ public class TicTacToeTest
     @Test
     public void testStartStopGame(){
         applicationRunner.startGame();
-        applicationRunner.hasLabelWithNameAndText("gameStatus","Game Started");
+        applicationRunner.hasLabelWithNameAndText("gameStatus","Game started");
         applicationRunner.stopGame();
-        applicationRunner.hasLabelWithNameAndText("gameStatus","Game Stopped");
-        applicationRunner.hasLabelWithNameAndText("gameResult","No One Wins");
+        applicationRunner.hasLabelWithNameAndText("gameStatus","Game stopped");
+        applicationRunner.hasLabelWithNameAndText("gameResult","No one wins");
     }
-
+    @After
+    public void releaseMemory()
+    {
+        applicationRunner.releaseMemory();
+    }
 }

@@ -1,12 +1,8 @@
 package com.qsoft.tictactoe;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.qsoft.tictactoe.ui.controller.TicTacToeController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.stereotype.Component;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,16 +14,15 @@ import java.awt.event.ActionListener;
 
 public class TicTacToeMain
 {
-    private MainGUI mainGUI;
     public TicTacToeMain()
     {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
-        mainGUI = applicationContext.getBean(MainGUI.class);
     }
 
     public void showMainUI()
     {
-        mainGUI.showUI();
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
+        TicTacToeController ticTacToeController = applicationContext.getBean(TicTacToeController.class);
+        ticTacToeController.initActionAndShowUI();
     }
 
     public static void main(String[] args)

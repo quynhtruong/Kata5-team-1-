@@ -41,6 +41,24 @@ public class MainGUI extends JFrame
         setName("TicTacToeGame");
         setSize(600, 600);
         setVisible(true);
+        btStart.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                lbGameStatus.setText("Game Started");
+            }
+        });
+        btStop.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                lbGameStatus.setText("Game Stopped");
+                lbGameResult.setText("No One Wins");
+            }
+        });
+
     }
 
     public static void main(String[] args)

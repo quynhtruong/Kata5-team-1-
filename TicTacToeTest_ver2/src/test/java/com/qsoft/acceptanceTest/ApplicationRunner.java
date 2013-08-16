@@ -41,6 +41,6 @@ public class ApplicationRunner
 
     public void stopGame()
     {
-
+        ticTacToeDriver.button("btStop").click();
     }
 }

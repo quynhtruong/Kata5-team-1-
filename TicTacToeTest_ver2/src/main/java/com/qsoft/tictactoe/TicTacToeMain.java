@@ -23,7 +23,6 @@ public class TicTacToeMain
     {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
         mainGUI = applicationContext.getBean(MainGUI.class);
-        showMainUI();
     }
 
     public void showMainUI()

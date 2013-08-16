@@ -32,15 +32,15 @@ public class TicTacToeDriver extends JFrameDriver
         new JLabelDriver(this, named(name)).hasText(equalTo(""));
     }
 
-    public void hasButtonWithName(String name)
+    public void hasButtonWithName(String name, String text)
     {
-        new JButtonDriver(this,JButton.class,named(name)).hasText(equalTo(""));
+        new JButtonDriver(this,JButton.class,named(name)).hasText(equalTo(text));
     }
 
     public void hasBoardWithNineButton()
     {
         for (int i = 0; i < 9; i++){
-            new JButtonDriver(this, JButton.class, named(new Integer(i).toString())).hasText(equalTo(""));
+            new JButtonDriver(this, JButton.class, named(new Integer(i).toString())).hasText(equalTo(" "));
         }
     }
 }

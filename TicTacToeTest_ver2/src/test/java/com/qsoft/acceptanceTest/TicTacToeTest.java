@@ -20,8 +20,8 @@ public class TicTacToeTest
         applicationRunner.showMainUI();
         applicationRunner.hasLabelWithName("gameStatus");
         applicationRunner.hasLabelWithName("gameResult");
-        applicationRunner.hasButtonWithName("btStart");
-        applicationRunner.hasButtonWithName("btStop");
+        applicationRunner.hasButtonWithName("btStart","Start");
+        applicationRunner.hasButtonWithName("btStop","Stop");
         applicationRunner.hasBoardWithNineButton();
 
     }

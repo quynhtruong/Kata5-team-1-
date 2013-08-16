@@ -1,5 +1,7 @@
 package com.qsoft.acceptanceTest;
 
+import com.qsoft.tictactoe.TicTacToeMain;
+
 /**
  * Created with IntelliJ IDEA.
  * User: khiemnt
@@ -9,10 +11,11 @@ package com.qsoft.acceptanceTest;
  */
 public class ApplicationRunner
 {
+    private TicTacToeMain ticTacToeMain = new TicTacToeMain();
     private TicTacToeDriver ticTacToeDriver = new TicTacToeDriver(1000);
     public void showMainUI()
     {
-            //To change body of created methods use File | Settings | File Templates.
+            ticTacToeMain.showMainUI();
     }
 
     public void hasLabelWithName(String gameStatus)
@@ -20,9 +23,9 @@ public class ApplicationRunner
         ticTacToeDriver.hasLabelWithName(gameStatus);
     }
 
-    public void hasButtonWithName(String name)
+    public void hasButtonWithName(String name, String text)
     {
-        ticTacToeDriver.hasButtonWithName(name);
+        ticTacToeDriver.hasButtonWithName(name, text);
     }
 
     public void hasBoardWithNineButton()

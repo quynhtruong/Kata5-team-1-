@@ -14,16 +14,20 @@ public class TicTacToeTest
 {
     private ApplicationRunner applicationRunner = new ApplicationRunner();
 
+    @Before
+    public void setUp()
+    {
+        applicationRunner.showMainUI();
+    }
+
     @Test
     public void testTheOriginalUI()
     {
-        applicationRunner.showMainUI();
         applicationRunner.hasLabelWithName("gameStatus");
         applicationRunner.hasLabelWithName("gameResult");
         applicationRunner.hasButtonWithName("btStart","Start");
         applicationRunner.hasButtonWithName("btStop","Stop");
         applicationRunner.hasBoardWithNineButton();
-
     }
 
 }

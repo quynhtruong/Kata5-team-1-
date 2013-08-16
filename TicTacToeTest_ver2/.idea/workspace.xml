@@ -4,7 +4,7 @@
     <list default="true" id="30ccfff5-b3e4-4bb6-affd-021a654f6234" name="Default" comment="" />
     <ignored path="TicTacToeTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376619080291" ignored="false" />
+    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376619144232" ignored="false" />
     <file path="/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618353692" ignored="false" />
     <file path="/fragment.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618223411" ignored="false" />
     <file path="/ApplicationRunner.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618218084" ignored="false" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="TicTacToeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="736" selection-end="736" vertical-scroll-proportion="0.6150507">
+            <state line="30" column="13" selection-start="784" selection-end="784" vertical-scroll-proportion="0.7134588">
               <folding />
             </state>
           </provider>
@@ -743,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="736" selection-end="736" vertical-scroll-proportion="0.6150507">
+        <state line="30" column="13" selection-start="784" selection-end="784" vertical-scroll-proportion="0.7134588">
           <folding />
         </state>
       </provider>

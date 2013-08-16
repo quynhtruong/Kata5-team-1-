@@ -18,12 +18,12 @@ public class ApplicationRunner
             ticTacToeMain.showMainUI();
     }
 
-    public void hasLabelWithName(String gameStatus)
+    public void hasLabelWithNameAndText(String gameStatus,String text)
     {
-        ticTacToeDriver.hasLabelWithName(gameStatus);
+        ticTacToeDriver.hasLabelWithNameAndText(gameStatus, text);
     }
 
-    public void hasButtonWithName(String name, String text)
+    public void hasButtonWithNameAndText(String name, String text)
     {
         ticTacToeDriver.hasButtonWithName(name, text);
     }
@@ -31,5 +31,16 @@ public class ApplicationRunner
     public void hasBoardWithNineButton()
     {
         ticTacToeDriver.hasBoardWithNineButton();
+    }
+
+    public void startGame()
+    {
+        ticTacToeDriver.button("btStart").click();
+
+    }
+
+    public void stopGame()
+    {
+
     }
 }

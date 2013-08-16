@@ -23,11 +23,20 @@ public class TicTacToeTest
     @Test
     public void testTheOriginalUI()
     {
-        applicationRunner.hasLabelWithName("gameStatus");
-        applicationRunner.hasLabelWithName("gameResult");
-        applicationRunner.hasButtonWithName("btStart","Start");
-        applicationRunner.hasButtonWithName("btStop","Stop");
+        applicationRunner.hasLabelWithNameAndText("gameStatus","");
+        applicationRunner.hasLabelWithNameAndText("gameResult","");
+        applicationRunner.hasButtonWithNameAndText("btStart", "Start");
+        applicationRunner.hasButtonWithNameAndText("btStop", "Stop");
         applicationRunner.hasBoardWithNineButton();
+    }
+
+    @Test
+    public void testStartStopGame(){
+        applicationRunner.startGame();
+        applicationRunner.hasLabelWithNameAndText("gameStatus","Game Started");
+        applicationRunner.stopGame();
+        applicationRunner.hasLabelWithNameAndText("gameStatus","Game Stopped");
+        applicationRunner.hasLabelWithNameAndText("gameResult","No One Wins");
     }
 
 }

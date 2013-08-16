@@ -5,6 +5,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 /**
  * Created with IntelliJ IDEA.
  * User: khiemnt
@@ -20,10 +23,17 @@ public class TicTacToeMain
     {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
         mainGUI = applicationContext.getBean(MainGUI.class);
+        showMainUI();
     }
 
     public void showMainUI()
     {
         mainGUI.showUI();
     }
+
+    public static void main(String[] args)
+    {
+        new TicTacToeMain();
+    }
+
 }

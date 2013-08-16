@@ -3,6 +3,7 @@ package com.qsoft.acceptanceTest;
 import com.objogate.wl.Prober;
 import com.objogate.wl.swing.AWTEventQueueProber;
 import com.objogate.wl.swing.ComponentSelector;
+import com.objogate.wl.swing.driver.AbstractButtonDriver;
 import com.objogate.wl.swing.driver.JButtonDriver;
 import com.objogate.wl.swing.driver.JFrameDriver;
 import com.objogate.wl.swing.driver.JLabelDriver;
@@ -27,9 +28,9 @@ public class TicTacToeDriver extends JFrameDriver
                 showingOnScreen()), new AWTEventQueueProber(timeOut, 500));
     }
 
-    public void hasLabelWithName(String name)
+    public void hasLabelWithNameAndText(String name,String text)
     {
-        new JLabelDriver(this, named(name)).hasText(equalTo(""));
+        new JLabelDriver(this, named(name)).hasText(equalTo(text));
     }
 
     public void hasButtonWithName(String name, String text)
@@ -37,10 +38,15 @@ public class TicTacToeDriver extends JFrameDriver
         new JButtonDriver(this,JButton.class,named(name)).hasText(equalTo(text));
     }
 
+    public JButtonDriver button(String name)
+    {
+        return new JButtonDriver(this, JButton.class, named(name));
+    }
     public void hasBoardWithNineButton()
     {
         for (int i = 0; i < 9; i++){
             new JButtonDriver(this, JButton.class, named(new Integer(i).toString())).hasText(equalTo(" "));
         }
     }
+
 }

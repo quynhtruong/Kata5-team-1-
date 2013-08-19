@@ -14,9 +14,9 @@
     <file path="/TicTacToeMain.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621632270" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618455242" ignored="false" />
     <file path="/application-context.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618517363" ignored="false" />
-    <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376875834617" ignored="false" />
+    <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376876102784" ignored="false" />
     <file path="/ActionEventListener.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621553291" ignored="false" />
-    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376622133901" ignored="false" />
+    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376876507793" ignored="false" />
     <file path="/a.dummy" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376622154204" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="12" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.41013825">
+            <state line="51" column="54" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,24 +131,20 @@
       <file leaf-file-name="MainGUI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="33" selection-start="2673" selection-end="2673" vertical-scroll-proportion="0.0">
+            <state line="69" column="23" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2421#2610#0" expanded="true" />
-                <element signature="e#2599#2600#0" expanded="true" />
-                <element signature="e#2821#2822#0" expanded="true" />
-                <element signature="e#2865#3054#0" expanded="true" />
-                <element signature="e#3043#3044#0" expanded="true" />
-                <element signature="e#3087#3276#0" expanded="true" />
-                <element signature="e#3265#3266#0" expanded="true" />
+                <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+                <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+                <marker date="1376876544290" expanded="true" signature="2955:3020" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+            <state line="45" column="34" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.55409837">
               <folding />
             </state>
           </provider>
@@ -157,7 +153,7 @@
       <file leaf-file-name="ActionEventListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+            <state line="11" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,10 +179,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/TicTacToeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
       </list>
     </option>
   </component>
@@ -730,8 +726,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -749,9 +746,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.916318" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08368201" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -820,13 +816,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2421#2610#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2821#2822#0" expanded="true" />
-            <element signature="e#2865#3054#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
-            <element signature="e#3087#3276#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
+            <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+            <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+            <marker date="1376876544290" expanded="true" signature="2955:3020" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -871,11 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_43/jre/lib/rt.jar!/java/awt/Component.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="551" column="29" selection-start="20373" selection-end="20373" vertical-scroll-proportion="0.33333334" />
@@ -888,10 +875,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+        <state line="54" column="51" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="23" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+            <element signature="initializer##0;class#MainGUI#0" expanded="false" />
+            <marker date="1376876544290" expanded="true" signature="2955:3020" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -902,38 +900,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
+        <state line="11" column="26" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="54" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="33" selection-start="2673" selection-end="2673" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2421#2610#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2821#2822#0" expanded="true" />
-            <element signature="e#2865#3054#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
-            <element signature="e#3087#3276#0" expanded="true" />
-            <element signature="e#3265#3266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="12" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.41013825">
+        <state line="45" column="34" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.55409837">
           <folding />
         </state>
       </provider>

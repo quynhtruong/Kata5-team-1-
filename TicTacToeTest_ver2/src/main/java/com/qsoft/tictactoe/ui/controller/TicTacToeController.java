@@ -5,6 +5,7 @@ import com.qsoft.tictactoe.ui.controller.ActionEventListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 /**
@@ -19,6 +20,8 @@ public class TicTacToeController implements ActionEventListener
 {
     @Autowired
     private MainGUI mainGUI;
+    private int numOfStep = 0;
+
     @Override
     public void actionPerformed(ActionEvent actionEvent)
     {
@@ -27,12 +30,35 @@ public class TicTacToeController implements ActionEventListener
         {
             mainGUI.getLbGameStatus().setText("Game started");
         }
+        else if (source.equals(mainGUI.getBtStop()))
+        {
+            mainGUI.getLbGameStatus().setText("Game stopped");
+            mainGUI.getLbGameResult().setText("No one wins");
+        }
+
         else
-            if (source.equals(mainGUI.getBtStop()))
+        {
+            for (JButton button : mainGUI.getButtonList())
             {
-                mainGUI.getLbGameStatus().setText("Game stopped");
-                mainGUI.getLbGameResult().setText("No one wins");
+                if (source.equals(button))
+                {
+                    if (button.getText().equals(" "))
+                    {
+                        numOfStep++;
+                        if (numOfStep % 2 == 0)
+                        {
+                            button.setText("O");
+                        }
+                        else
+                        {
+                            button.setText("X");
+                        }
+                    }
+
+                }
             }
+        }
+
     }
 
     @Override

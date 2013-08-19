@@ -8,6 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
@@ -33,6 +34,7 @@ public class MainGUI extends JFrame
     private JLabel lbGameStatus;
     private JButton bt3;
     private JLabel lbGameResult;
+    ArrayList<JButton> buttonList = new ArrayList<JButton>();
 
     public void showUI()
     {
@@ -42,10 +44,31 @@ public class MainGUI extends JFrame
         setName("TicTacToeGame");
         setSize(600, 600);
         setVisible(true);
+
+        addButtonToList();
     }
+
+    private void addButtonToList()
+    {
+        buttonList.add(bt0);
+        buttonList.add(bt1);
+        buttonList.add(bt2);
+        buttonList.add(bt3);
+        buttonList.add(bt4);
+        buttonList.add(bt5);
+        buttonList.add(bt6);
+        buttonList.add(bt7);
+        buttonList.add(bt8);
+    }
+
 
     //getter and setter
 
+
+    public ArrayList<JButton> getButtonList()
+    {
+        return buttonList;
+    }
 
     public JButton getBt0()
     {
@@ -126,38 +149,10 @@ public class MainGUI extends JFrame
     {
         btStart.addActionListener(listener);
         btStop.addActionListener(listener);
-        bt1.addActionListener(new ActionListener()
+        for (JButton button : buttonList)
         {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                bt1.setText("X");
-            }
-        });
-        bt3.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                bt3.setText("O");
-            }
-        });
-        bt6.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                bt6.setText("X");
-            }
-        });
-        bt2.addActionListener(new ActionListener()
-        {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent)
-            {
-                bt2.setText("O");
-            }
-        });
+            button.addActionListener(listener);
+        }
     }
 
     {

@@ -32,8 +32,10 @@ public class TicTacToeController implements ActionEventListener
         }
         else if (source.equals(mainGUI.getBtStop()))
         {
+
             mainGUI.getLbGameStatus().setText("Game stopped");
-            mainGUI.getLbGameResult().setText("No one wins");
+           showResult();
+
         }
 
         else
@@ -53,12 +55,28 @@ public class TicTacToeController implements ActionEventListener
                         {
                             button.setText("X");
                         }
+                        if(numOfStep==9){
+                            showResult();
+                        }
+
                     }
 
                 }
             }
         }
 
+    }
+
+    private void showResult()
+    {
+        if(calculateResult().equals("")){
+            mainGUI.getLbGameResult().setText("No one wins");
+        }
+    }
+
+    public String calculateResult()
+    {
+        return "";
     }
 
     @Override

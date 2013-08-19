@@ -21,6 +21,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.windowlicker:windowlicker-swing:r268" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.windowlicker:windowlicker-core:r268" level="project" />
@@ -42,7 +43,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:3.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:3.2.0.RELEASE" level="project" />
-    <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
   </component>
 </module>
 

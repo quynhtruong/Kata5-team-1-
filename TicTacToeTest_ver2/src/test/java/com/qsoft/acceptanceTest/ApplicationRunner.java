@@ -49,4 +49,9 @@ public class ApplicationRunner
     {
         ticTacToeDriver.dispose();
     }
+
+    public void move(String position)
+    {
+
+    }
 }

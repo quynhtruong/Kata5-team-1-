@@ -52,6 +52,6 @@ public class ApplicationRunner
 
     public void move(String position)
     {
-
+          ticTacToeDriver.button(position).click();
     }
 }

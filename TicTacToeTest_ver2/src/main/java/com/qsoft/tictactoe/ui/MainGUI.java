@@ -6,6 +6,8 @@ import com.qsoft.tictactoe.ui.controller.ActionEventListener;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * Created with IntelliJ IDEA.
@@ -45,6 +47,51 @@ public class MainGUI extends JFrame
     //getter and setter
 
 
+    public JButton getBt0()
+    {
+        return bt0;
+    }
+
+    public JButton getBt6()
+    {
+        return bt6;
+    }
+
+    public JButton getBt1()
+    {
+        return bt1;
+    }
+
+    public JButton getBt4()
+    {
+        return bt4;
+    }
+
+    public JButton getBt7()
+    {
+        return bt7;
+    }
+
+    public JButton getBt2()
+    {
+        return bt2;
+    }
+
+    public JButton getBt5()
+    {
+        return bt5;
+    }
+
+    public JButton getBt8()
+    {
+        return bt8;
+    }
+
+    public JButton getBt3()
+    {
+        return bt3;
+    }
+
     public JButton getBtStart()
     {
         return btStart;
@@ -79,6 +126,38 @@ public class MainGUI extends JFrame
     {
         btStart.addActionListener(listener);
         btStop.addActionListener(listener);
+        bt1.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                bt1.setText("X");
+            }
+        });
+        bt3.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                bt3.setText("O");
+            }
+        });
+        bt6.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                bt6.setText("X");
+            }
+        });
+        bt2.addActionListener(new ActionListener()
+        {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent)
+            {
+                bt2.setText("O");
+            }
+        });
     }
 
     {

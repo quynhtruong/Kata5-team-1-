@@ -21,6 +21,8 @@ import javax.sql.DataSource;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created with IntelliJ IDEA.
@@ -69,5 +71,14 @@ public class TicTacToeDaoTest
 
         assertEquals("O", gameEntityList.get(1).getWinner());
         assertEquals("0,1,2,4,7,", gameEntityList.get(1).getProcess());
+    }
+
+    @Test
+    public void testSaveGame(){
+        GameEntity gameEntity=new GameEntity("X","2,1,5,3,8")  ;
+        ticTacToeDao.save(gameEntity);
+
+        List<GameEntity> gameEntityList=ticTacToeDao.getAllGameFinished();
+        assertTrue(gameEntityList.contains(gameEntity));
     }
 }

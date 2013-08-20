@@ -29,7 +29,7 @@
     <file path="/TicTacToeService.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376969724493" ignored="false" />
     <file path="/TicTacToeServiceImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376971072667" ignored="false" />
     <file path="/TicTacToeDaoImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974066345" ignored="false" />
-    <file path="/TicTacToeDaoTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974142224" ignored="false" />
+    <file path="/TicTacToeDaoTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974371294" ignored="false" />
     <file path="/application-contextTest.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973848425" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/test/resources/spring-config-Test.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973270873" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973459387" ignored="false" />
@@ -107,17 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="46" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,10 +148,19 @@
       <file leaf-file-name="TicTacToeDaoTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="67" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.6682809">
+            <state line="77" column="18" selection-start="2506" selection-end="2506" vertical-scroll-proportion="0.5883777">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_43/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="12" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -720,7 +718,7 @@
       <recent name="E:\kata5\TicTacToeTest_ver2\src\main\java\com\qsoft\tictactoe\ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeDaoTest.testGetListGameThatFinished">
+  <component name="RunManager" selected="JUnit.TicTacToeDaoTest.testSaveGame">
     <configuration default="false" name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -733,34 +731,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.qsoft.acceptanceTest" />
       <option name="MAIN_CLASS_NAME" value="com.qsoft.acceptanceTest.TicTacToeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TicTacToeControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qsoft.unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TicTacToeTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeControllerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -846,6 +816,34 @@
       <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
       <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeDaoTest" />
       <option name="METHOD_NAME" value="testGetListGameThatFinished" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TicTacToeDaoTest.testSaveGame" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qsoft.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TicTacToeTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeDaoTest" />
+      <option name="METHOD_NAME" value="testSaveGame" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -960,18 +958,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testSaveGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testSaveGame" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1094,15 +1092,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
@@ -1207,9 +1196,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_43/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="12" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="67" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.6682809">
+        <state line="77" column="18" selection-start="2506" selection-end="2506" vertical-scroll-proportion="0.5883777">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

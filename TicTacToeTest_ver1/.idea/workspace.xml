@@ -92,8 +92,8 @@
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376969662307" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376974072458" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/resources/application-context.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376973849802" ignored="false" />
-    <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376974145411" ignored="false" />
-    <file path="/TicTacToeDaoTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376974142224" ignored="false" />
+    <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376974372415" ignored="false" />
+    <file path="/TicTacToeDaoTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376974371294" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971267637" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/test/resources/dataset.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971872998" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/test/resources/application-contextTest.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376973848997" ignored="false" />
@@ -201,10 +201,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/TicTacToe/persistance/dao/impl/TicTacToeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.27580893">
+            <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,10 +212,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeDAOTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeDAOTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="55" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0">
+            <state line="76" column="7" selection-start="2564" selection-end="2613" vertical-scroll-proportion="0.759434">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1386,15 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="55" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="664" selection-end="862" vertical-scroll-proportion="0.0">
@@ -1411,7 +1402,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/TicTacToe/persistance/dao/impl/TicTacToeDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.27580893">
+        <state line="17" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="7" selection-start="2564" selection-end="2613" vertical-scroll-proportion="0.759434">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

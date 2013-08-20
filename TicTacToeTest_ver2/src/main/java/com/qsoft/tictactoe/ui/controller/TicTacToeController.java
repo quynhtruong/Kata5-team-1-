@@ -83,6 +83,10 @@ public class TicTacToeController implements ActionEventListener
         {
             mainGUI.getLbGameResult().setText("No one wins");
         }
+        else
+        {
+            mainGUI.getLbGameResult().setText("The winner is " + result);
+        }
     }
 
     public String calculateResult(String steps[])

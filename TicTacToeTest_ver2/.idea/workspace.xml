@@ -16,7 +16,7 @@
     <file path="/application-context.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618517363" ignored="false" />
     <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376876102784" ignored="false" />
     <file path="/ActionEventListener.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621553291" ignored="false" />
-    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376965746236" ignored="false" />
+    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376966057898" ignored="false" />
     <file path="/a.dummy" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376622154204" ignored="false" />
     <file path="$USER_HOME$/Desktop/TDD/19_8_2013/trunk/TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376881913605" ignored="false" />
     <file path="$USER_HOME$/Desktop/examSpring/SpringOsgiTest/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376879901144" ignored="false" />
@@ -80,10 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="7" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.0">
+            <state line="89" column="16" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.85238785">
               <folding />
             </state>
           </provider>
@@ -92,16 +92,16 @@
       <file leaf-file-name="TicTacToeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="20" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+            <state line="110" column="36" selection-start="3268" selection-end="3273" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeControllerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="33" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.85238785">
+            <state line="52" column="4" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
       </list>
     </option>
   </component>
@@ -438,7 +438,7 @@
       <recent name="E:\kata5\TicTacToeTest_ver2\src\main\java\com\qsoft\tictactoe\ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeControllerTest">
+  <component name="RunManager" selected="JUnit.TicTacToeTest">
     <configuration default="false" name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -685,9 +685,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest.testCalculateResultAndTheWinnerIsO" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest.testCalculateResultAndTheWinnerIsO" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest.testCalculateResultWithTheWinnerIsX" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlaySomethingAndTheWinnerIsX" />
       </list>
@@ -897,26 +897,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="7" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="52" column="4" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="20" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
+        <state line="110" column="36" selection-start="3268" selection-end="3273" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.85238785">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="89" column="16" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.85238785">
+          <folding />
         </state>
       </provider>
     </entry>

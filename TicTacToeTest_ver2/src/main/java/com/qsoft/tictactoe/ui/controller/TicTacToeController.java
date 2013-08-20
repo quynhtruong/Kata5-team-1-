@@ -55,6 +55,10 @@ public class TicTacToeController implements ActionEventListener
                         {
                             button.setText("X");
                         }
+                        if (numOfStep == 5){
+                            mainGUI.getLbGameResult().setText("The winner is X");
+                        }
+                        else
                         if(numOfStep==9){
                             showResult();
                         }

@@ -29,11 +29,33 @@ public class TicTacToeControllerTest
     @Test
     public void testCalculateResultWithTheWinnerIsX()
     {
-         steps[0] = "X";
-         steps[1] = "O";
-         steps[4] = "X";
-         steps[2] = "O";
-         steps[8] = "X";
-         assertEquals(ticTacToeController.calculateResult(steps),"X");
+        steps[0] = "X";
+        steps[1] = "O";
+        steps[4] = "X";
+        steps[2] = "O";
+        steps[8] = "X";
+        assertEquals(ticTacToeController.calculateResult(steps), "X");
+    }
+
+    @Test
+    public void testCalculateResultAndTheWinnerIsO()
+    {
+        steps[0] = "X";
+        steps[1] = "O";
+        steps[3] = "X";
+        steps[4] = "O";
+        steps[5] = "X";
+        steps[7] = "O";
+        assertEquals(ticTacToeController.calculateResult(steps), "O");
+    }
+
+    @Test
+    public void testCalculateResultAndNotOneWin()
+    {
+        steps[0] = "X";
+        steps[1] = "O";
+        steps[3] = "X";
+        steps[4] = "O";
+        assertEquals(ticTacToeController.calculateResult(steps), "");
     }
 }

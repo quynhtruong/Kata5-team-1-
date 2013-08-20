@@ -60,12 +60,14 @@ public class TicTacToeController implements ActionEventListener
                             button.setText("X");
                         }
                         steps[Integer.parseInt(button.getName())] = button.getText();
-                        if (numOfStep == 5)
+                        String tempResult = calculateResult(steps);
+                        if (numOfStep == 9)
                         {
-                           mainGUI.getLbGameResult().setText("The winner is X");
+                            showResult(tempResult);
                         }
-                        if(numOfStep==9){
-                            showResult(calculateResult(steps));
+                        else if (tempResult != "")
+                        {
+                            showResult(tempResult);
                         }
                     }
 
@@ -77,13 +79,52 @@ public class TicTacToeController implements ActionEventListener
 
     private void showResult(String result)
     {
-        if(result.equals("")){
+        if (result.equals(""))
+        {
             mainGUI.getLbGameResult().setText("No one wins");
         }
     }
 
     public String calculateResult(String steps[])
     {
+        for (int i = 0; i < 9; i++)
+        {
+            if (steps[i] != null)
+            {
+                //case 1
+                if (i == 4 && steps[i].equals(steps[i + 4]) && (steps[i]).equals(steps[i - 4]))
+                {
+                    if (!steps[i].equals(" "))
+                    {
+                        return steps[i];
+                    }
+                }
+                //case 2
+                if (i > 2 && i < 6 && steps[i].equals(steps[i + 3]) && (steps[i]).equals(steps[i - 3]))
+                {
+                    if (!steps[i].equals(" "))
+                    {
+                        return steps[i];
+                    }
+                }
+                //case 3
+                if (i == 4 && steps[i].equals(steps[i + 2]) && steps[i].equals(steps[i - 2]))
+                {
+                    if (!steps[i].equals(" "))
+                    {
+                        return steps[i];
+                    }
+                }
+                //case 4
+                if ((i % 3 == 1) && (steps[i].equals(steps[i + 1])) && (steps[i].equals(steps[i - 1])))
+                {
+                    if (!steps[i].equals(" "))
+                    {
+                        return steps[i];
+                    }
+                }
+            }
+        }
         return "";
     }
 

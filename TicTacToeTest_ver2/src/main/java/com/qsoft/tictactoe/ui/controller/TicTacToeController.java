@@ -7,6 +7,10 @@ import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,6 +25,7 @@ public class TicTacToeController implements ActionEventListener
     @Autowired
     private MainGUI mainGUI;
     private int numOfStep = 0;
+    private String steps[] = new String[9];
 
     @Override
     public void actionPerformed(ActionEvent actionEvent)
@@ -34,8 +39,7 @@ public class TicTacToeController implements ActionEventListener
         {
 
             mainGUI.getLbGameStatus().setText("Game stopped");
-           showResult();
-
+            showResult(calculateResult(steps));
         }
 
         else
@@ -55,14 +59,14 @@ public class TicTacToeController implements ActionEventListener
                         {
                             button.setText("X");
                         }
-                        if (numOfStep == 5){
-                            mainGUI.getLbGameResult().setText("The winner is X");
+                        steps[Integer.parseInt(button.getName())] = button.getText();
+                        if (numOfStep == 5)
+                        {
+                           mainGUI.getLbGameResult().setText("The winner is X");
                         }
-                        else
                         if(numOfStep==9){
-                            showResult();
+                            showResult(calculateResult(steps));
                         }
-
                     }
 
                 }
@@ -71,14 +75,14 @@ public class TicTacToeController implements ActionEventListener
 
     }
 
-    private void showResult()
+    private void showResult(String result)
     {
-        if(calculateResult().equals("")){
+        if(result.equals("")){
             mainGUI.getLbGameResult().setText("No one wins");
         }
     }
 
-    public String calculateResult()
+    public String calculateResult(String steps[])
     {
         return "";
     }

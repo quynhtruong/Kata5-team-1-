@@ -4,7 +4,7 @@
     <list default="true" id="30ccfff5-b3e4-4bb6-affd-021a654f6234" name="Default" comment="" />
     <ignored path="TicTacToeTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376961428600" ignored="false" />
+    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376965072933" ignored="false" />
     <file path="/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618353692" ignored="false" />
     <file path="/fragment.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376875046045" ignored="false" />
     <file path="/ApplicationRunner.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376875582093" ignored="false" />
@@ -16,11 +16,12 @@
     <file path="/application-context.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618517363" ignored="false" />
     <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376876102784" ignored="false" />
     <file path="/ActionEventListener.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621553291" ignored="false" />
-    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376962138569" ignored="false" />
+    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376965143391" ignored="false" />
     <file path="/a.dummy" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376622154204" ignored="false" />
     <file path="$USER_HOME$/Desktop/TDD/19_8_2013/trunk/TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376881913605" ignored="false" />
     <file path="$USER_HOME$/Desktop/examSpring/SpringOsgiTest/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376879901144" ignored="false" />
     <file path="$USER_HOME$/Desktop/TDD/19_8_2013/trunk/TicTacToeTest_ver2/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376880789104" ignored="false" />
+    <file path="/TicTacToeControllerTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376964989054" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +80,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+            <state line="89" column="21" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.85238785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="68" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.18695652">
+            <state line="64" column="80" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeControllerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="32" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/TicTacToeController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
       </list>
@@ -213,6 +226,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qsoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToeTest_ver2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qsoft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -392,40 +439,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TicTacToeTest">
-    <configuration default="false" name="TicTacToeTest.testStartStopGame" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qsoft.acceptanceTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TicTacToeTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qsoft.acceptanceTest" />
-      <option name="MAIN_CLASS_NAME" value="com.qsoft.acceptanceTest.TicTacToeTest" />
-      <option name="METHOD_NAME" value="testStartStopGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -510,7 +523,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TicTacToeTest.testPlaySomethingAndTheWinerIsX" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TicTacToeTest.testPlaySomethingAndTheWinnerIsX" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.qsoft.acceptanceTest.*" />
@@ -522,7 +535,35 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.qsoft.acceptanceTest" />
       <option name="MAIN_CLASS_NAME" value="com.qsoft.acceptanceTest.TicTacToeTest" />
-      <option name="METHOD_NAME" value="testPlaySomethingAndTheWinerIsX" />
+      <option name="METHOD_NAME" value="testPlaySomethingAndTheWinnerIsX" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TicTacToeControllerTest.testCalculateResultWithTheWinnerIsX" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qsoft.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TicTacToeTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeControllerTest" />
+      <option name="METHOD_NAME" value="testCalculateResultWithTheWinnerIsX" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,19 +671,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testStartStopGame" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testDoSomeThingThenStop" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlayAllMatchAndNoOneWin" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlaySomethingAndTheWinerIsX" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testDoSomeThingThenStop" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlayAllMatchAndNoOneWin" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlaySomethingAndTheWinnerIsX" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest.testCalculateResultWithTheWinnerIsX" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlaySomethingAndTheWinerIsX" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlayAllMatchAndNoOneWin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testDoSomeThingThenStop" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testStartStopGame" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeControllerTest.testCalculateResultWithTheWinnerIsX" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlaySomethingAndTheWinnerIsX" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testPlayAllMatchAndNoOneWin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testDoSomeThingThenStop" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -679,7 +720,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,8 +739,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67782426" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32217574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67782426" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32217574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -765,13 +806,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -857,16 +891,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="32" column="32" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="68" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.18695652">
+        <state line="64" column="80" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="21" selection-start="2834" selection-end="2834" vertical-scroll-proportion="0.85238785">
           <folding />
         </state>
       </provider>

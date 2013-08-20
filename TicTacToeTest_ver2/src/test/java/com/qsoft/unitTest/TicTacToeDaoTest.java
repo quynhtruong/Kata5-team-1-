@@ -1,7 +1,7 @@
-package com.qsoft.UnitTest;
+package com.qsoft.unitTest;
 
-import com.qsoft.TicTacToe.persistance.dao.TicTacToeDao;
-import com.qsoft.TicTacToe.persistance.entity.GameEntity;
+import com.qsoft.tictactoe.dao.TicTacToeDao;
+import com.qsoft.tictactoe.entity.GameEntity;
 import org.dbunit.DataSourceDatabaseTester;
 import org.dbunit.IDatabaseTester;
 import org.dbunit.dataset.IDataSet;
@@ -20,24 +20,24 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.sql.DataSource;
 import java.util.List;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created with IntelliJ IDEA.
  * User: khiemnt
- * Date: 8/15/13
- * Time: 10:20 AM
+ * Date: 8/20/13
+ * Time: 10:59 AM
  * To change this template use File | Settings | File Templates.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:spring-config-Test.xml"})
+@ContextConfiguration(locations = {"classpath:application-contextTest.xml"})
 @TransactionConfiguration(transactionManager="transactionManager",defaultRollback = true)
 @Transactional
-public class TicTacToeDAOTest
+public class TicTacToeDaoTest
 {
     @Autowired
-    public TicTacToeDao ticTacToeDao;
+    private TicTacToeDao ticTacToeDao;
+
     @Autowired
     private DataSource dataSourceTest;
 
@@ -46,12 +46,13 @@ public class TicTacToeDAOTest
     @Before
     public void setup() throws Exception
     {
-        IDataSet dataSet = new FlatXmlDataSetBuilder().build(System.class.getResource("/dataSet.xml"));
+        IDataSet dataSet = new FlatXmlDataSetBuilder().build(System.class.getResource("/dataset.xml"));
         databaseTester = new DataSourceDatabaseTester(dataSourceTest);
         databaseTester.setSetUpOperation(DatabaseOperation.CLEAN_INSERT);
         databaseTester.setDataSet(dataSet);
         databaseTester.onSetup();
     }
+
 
     @After
     public void tearDown() throws Exception
@@ -60,20 +61,13 @@ public class TicTacToeDAOTest
     }
 
     @Test
-    public void testGetAllGameEntity()
+    public void testGetListGameThatFinished()
     {
-        List<GameEntity> gameEntityList = ticTacToeDao.getAllGameEntity();
-        assertEquals(2L, gameEntityList.size());
+        List<GameEntity> gameEntityList = ticTacToeDao.getAllGameFinished();
         assertEquals("X", gameEntityList.get(0).getWinner());
-        assertEquals("1-2,", gameEntityList.get(0).getProcess());
-    }
+        assertEquals("0,1,4,2,8,", gameEntityList.get(0).getWinner());
 
-    @Test
-    public void testSaveGameEntity()
-    {
-        GameEntity gameEntity = new GameEntity("x", "3-4,");
-        ticTacToeDao.save(gameEntity);
-        List<GameEntity> gameEntityList = ticTacToeDao.getAllGameEntity();
-        assertTrue(gameEntityList.contains(gameEntity));
+        assertEquals("O", gameEntityList.get(1).getWinner());
+        assertEquals("0,1,2,4,7,", gameEntityList.get(1).getWinner());
     }
 }

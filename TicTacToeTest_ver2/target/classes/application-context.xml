@@ -12,6 +12,7 @@
     <context:component-scan base-package="com.qsoft.tictactoe"/>
     <context:annotation-config/>
     <context:spring-configured/>
+
     <bean id="entityManager" class="org.springframework.orm.jpa.support.SharedEntityManagerBean">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
@@ -33,9 +34,10 @@
         <property name="username" value="dbc_user"/>
         <property name="password" value="123456"/>
     </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="dataSource" ref="dataSource">
         </property>
     </bean>
-    <tx:annotation-driven transaction-manager="transactionManager"/>
+
 </beans>

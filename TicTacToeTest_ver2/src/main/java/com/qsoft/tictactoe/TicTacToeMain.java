@@ -20,7 +20,7 @@ public class TicTacToeMain
 
     public void showMainUI()
     {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-context.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("application-contextTest.xml");
         TicTacToeController ticTacToeController = applicationContext.getBean(TicTacToeController.class);
         ticTacToeController.initActionAndShowUI();
     }

@@ -12,7 +12,7 @@
     <context:component-scan base-package="com.qsoft.TicTacToe"/>
     <context:annotation-config/>
     <context:spring-configured/>
-
+    <tx:annotation-driven transaction-manager="transactionManager"/>
     <bean id="entityManager" class="org.springframework.orm.jpa.support.SharedEntityManagerBean">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
@@ -38,6 +38,6 @@
         <property name="dataSource" ref="dataSource">
         </property>
     </bean>
-    <tx:annotation-driven transaction-manager="transactionManager"/>
+
 
 </beans>

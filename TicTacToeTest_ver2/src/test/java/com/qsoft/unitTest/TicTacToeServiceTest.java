@@ -41,8 +41,7 @@ public class TicTacToeServiceTest
     }
     @Test
     public void testGetAllGameFinished(){
-         ticTacToeService.getAllGameFinished();
-        ArgumentCaptor<GameEntity> argumentCaptor=ArgumentCaptor.forClass(GameEntity.class);
+        ticTacToeService.getAllGameFinished();
         verify(mockTicTacToeDao).getAllGameFinished();
     }
 }

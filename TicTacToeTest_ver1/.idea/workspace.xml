@@ -65,7 +65,7 @@
     <file path="/TicTacToeController.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376556602089" ignored="false" />
     <file path="/TicTacToeControllerTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376558280218" ignored="false" />
     <file path="C:/TDD/BankAccount_12_07_2013/pom.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376446567130" ignored="false" />
-    <file path="/TicTacToeServiceImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376970892062" ignored="false" />
+    <file path="/TicTacToeServiceImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971072667" ignored="false" />
     <file path="/TicTacToeDao.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376537719303" ignored="false" />
     <file path="/TicTacToeServiceTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971006347" ignored="false" />
     <file path="/spring-config.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376545192531" ignored="false" />
@@ -88,7 +88,7 @@
     <file path="/application-context.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376970679506" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971011391" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376969726877" ignored="false" />
-    <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376970892062" ignored="false" />
+    <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376971079151" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376969662307" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376970469007" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver2/src/main/resources/application-context.xml" changelist="2b0ff477-e4e1-4112-b535-8c744f893503" time="1376970759323" ignored="false" />
@@ -1194,7 +1194,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

@@ -30,7 +30,7 @@ public class TicTacToeServiceImpl implements TicTacToeService
     @Override
     public List<GameEntity> getAllGameFinished()
     {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return ticTacToeDao.getAllGameFinished();
     }
 
     @Override

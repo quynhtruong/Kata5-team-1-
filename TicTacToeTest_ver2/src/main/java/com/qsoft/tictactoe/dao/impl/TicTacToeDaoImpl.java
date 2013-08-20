@@ -26,7 +26,7 @@ public class TicTacToeDaoImpl implements TicTacToeDao
     @Override
     public void save(GameEntity gameEntity)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+       entityManager.persist(gameEntity);
     }
 
     @Override

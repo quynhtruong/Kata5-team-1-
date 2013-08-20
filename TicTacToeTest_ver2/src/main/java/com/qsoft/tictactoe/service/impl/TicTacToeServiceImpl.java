@@ -18,11 +18,13 @@ import java.util.List;
 @Component
 public class TicTacToeServiceImpl implements TicTacToeService
 {
+    @Autowired
+    private TicTacToeDao ticTacToeDao;
 
     @Override
     public void save(GameEntity gameEntity)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        ticTacToeDao.save(gameEntity);
     }
 
     @Override
@@ -32,8 +34,8 @@ public class TicTacToeServiceImpl implements TicTacToeService
     }
 
     @Override
-    public void setTicTacToeDao(TicTacToeDao mockTicTacToeDao)
+    public void setTicTacToeDao(TicTacToeDao ticTacToeDao)
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+       this.ticTacToeDao= ticTacToeDao;
     }
 }

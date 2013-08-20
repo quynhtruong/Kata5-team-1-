@@ -5,6 +5,8 @@ import com.qsoft.tictactoe.entity.GameEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
 /**
@@ -17,6 +19,9 @@ import java.util.List;
 @Transactional
 public class TicTacToeDaoImpl implements TicTacToeDao
 {
+    @PersistenceContext
+    EntityManager entityManager;
+
     @Override
     public void save(GameEntity gameEntity)
     {

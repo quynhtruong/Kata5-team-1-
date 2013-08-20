@@ -71,7 +71,16 @@ public class TicTacToeTest
         applicationRunner.move("7");
         applicationRunner.hasLabelWithNameAndText("gameResult","No one wins");
     }
-
+    @Test
+    public void testPlaySomethingAndTheWinerIsX(){
+        applicationRunner.startGame();
+        applicationRunner.move("0");
+        applicationRunner.move("1");
+        applicationRunner.move("4");
+        applicationRunner.move("7");
+        applicationRunner.move("8");
+        applicationRunner.hasLabelWithNameAndText("gameResult","The winner is X");
+    }
     @After
     public void releaseMemory()
     {

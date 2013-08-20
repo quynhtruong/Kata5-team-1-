@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 /**
@@ -31,6 +32,7 @@ public class TicTacToeDaoImpl implements TicTacToeDao
     @Override
     public List<GameEntity> getAllGameFinished()
     {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Query query=entityManager.createQuery("select g from GameEntity g");
+        return query.getResultList();
     }
 }

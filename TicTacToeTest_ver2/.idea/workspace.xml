@@ -28,8 +28,8 @@
     <file path="/TicTacToeServiceTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376971006347" ignored="false" />
     <file path="/TicTacToeService.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376969724493" ignored="false" />
     <file path="/TicTacToeServiceImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376971072667" ignored="false" />
-    <file path="/TicTacToeDaoImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376970466763" ignored="false" />
-    <file path="/TicTacToeDaoTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973440830" ignored="false" />
+    <file path="/TicTacToeDaoImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974066345" ignored="false" />
+    <file path="/TicTacToeDaoTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974142224" ignored="false" />
     <file path="/application-contextTest.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973848425" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/test/resources/spring-config-Test.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973270873" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973459387" ignored="false" />
@@ -121,7 +121,7 @@
       <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="583" selection-end="638" vertical-scroll-proportion="0.0">
+            <state line="35" column="38" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,15 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="persistenceTest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="60" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,22 +156,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeTest.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TicTacToeTest.iml">
+      <file leaf-file-name="TicTacToeDaoTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="70" column="67" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.6682809">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeDaoTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
+      <file leaf-file-name="TicTacToeDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.55632186">
+            <state line="16" column="28" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="24" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,11 +217,11 @@
         <option value="$PROJECT_DIR$/src/test/resources/dataset.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/application-contextTest.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java" />
       </list>
     </option>
   </component>
@@ -1013,7 +1015,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18404119" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26769626" sideWeight="0.67224544" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26769626" sideWeight="0.64156204" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1026,8 +1028,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20205921" sideWeight="0.67224544" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32775453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20205921" sideWeight="0.64156204" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35843793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1101,15 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
@@ -1131,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TicTacToeTest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1148,22 +1134,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="60" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="583" selection-end="638" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1205,9 +1175,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="38" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.55632186">
+        <state line="70" column="67" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.6682809">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

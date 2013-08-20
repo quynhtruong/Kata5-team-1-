@@ -65,9 +65,9 @@ public class TicTacToeDaoTest
     {
         List<GameEntity> gameEntityList = ticTacToeDao.getAllGameFinished();
         assertEquals("X", gameEntityList.get(0).getWinner());
-        assertEquals("0,1,4,2,8,", gameEntityList.get(0).getWinner());
+        assertEquals("0,1,4,2,8,", gameEntityList.get(0).getProcess());
 
         assertEquals("O", gameEntityList.get(1).getWinner());
-        assertEquals("0,1,2,4,7,", gameEntityList.get(1).getWinner());
+        assertEquals("0,1,2,4,7,", gameEntityList.get(1).getProcess());
     }
 }

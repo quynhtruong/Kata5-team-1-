@@ -33,6 +33,7 @@ public class TicTacToeController implements ActionEventListener
 
     private int numOfStep = 0;
     private String steps[] = new String[9];
+    private String stepResult="";
     @Override
     public void actionPerformed(ActionEvent actionEvent)
     {
@@ -69,6 +70,7 @@ public class TicTacToeController implements ActionEventListener
                             button.setText("X");
                         }
                         steps[Integer.parseInt(button.getName())] = button.getText();
+                        stepResult+=button.getName()+",";
                         String tempResult = calculateResult(steps);
                         if (numOfStep == 9)
                         {
@@ -97,8 +99,10 @@ public class TicTacToeController implements ActionEventListener
             mainGUI.getLbGameResult().setText("The winner is " + result);
 
             //save win game to Database
-
-            ticTacToeService.save(new GameEntity("X","0,1,4,7,8,"));
+            GameEntity gameEntity=new GameEntity();
+            gameEntity.setWinner(result);
+            gameEntity.setProcess(stepResult);
+            ticTacToeService.save(gameEntity);
 
 
         }

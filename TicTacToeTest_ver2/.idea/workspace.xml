@@ -100,24 +100,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="43" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicTacToeServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="25" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TicTacToeDaoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,7 +114,7 @@
       <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="30" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-4.24">
+            <state line="112" column="35" selection-start="3670" selection-end="3670" vertical-scroll-proportion="-4.58">
               <folding />
             </state>
           </provider>
@@ -141,7 +123,34 @@
       <file leaf-file-name="ApplicationRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="47" selection-start="1421" selection-end="1431" vertical-scroll-proportion="0.0">
+            <state line="56" column="18" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="39" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionEventListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,7 +179,7 @@
       <file leaf-file-name="TicTacToeController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="69" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.29715762">
+            <state line="86" column="69" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.69250643">
               <folding />
             </state>
           </provider>
@@ -180,19 +189,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainGUI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="28" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1201#1210#0" expanded="false" />
-                <element signature="initializer##0;class#MainGUI#0" expanded="false" />
-                <element signature="initializer##0;class#MainGUI#0" expanded="false" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -1149,27 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="50" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
@@ -1207,13 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="30" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-4.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="16" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
@@ -1237,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="1421" selection-end="1431" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="16" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
@@ -1253,9 +1214,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="35" selection-start="3670" selection-end="3670" vertical-scroll-proportion="-4.58">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="18" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="69" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.29715762">
+        <state line="86" column="69" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.69250643">
           <folding />
         </state>
       </provider>

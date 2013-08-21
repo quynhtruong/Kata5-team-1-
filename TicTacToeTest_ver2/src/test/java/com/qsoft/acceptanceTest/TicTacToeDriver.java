@@ -3,14 +3,14 @@ package com.qsoft.acceptanceTest;
 import com.objogate.wl.Prober;
 import com.objogate.wl.swing.AWTEventQueueProber;
 import com.objogate.wl.swing.ComponentSelector;
-import com.objogate.wl.swing.driver.AbstractButtonDriver;
-import com.objogate.wl.swing.driver.JButtonDriver;
-import com.objogate.wl.swing.driver.JFrameDriver;
-import com.objogate.wl.swing.driver.JLabelDriver;
+import com.objogate.wl.swing.driver.*;
 import com.objogate.wl.swing.gesture.GesturePerformer;
 
 import javax.swing.*;
 
+import static com.objogate.wl.swing.matcher.IterableComponentsMatcher.matching;
+import static com.objogate.wl.swing.matcher.JLabelTextMatcher.withLabelText;
+import static java.lang.String.valueOf;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
@@ -49,4 +49,9 @@ public class TicTacToeDriver extends JFrameDriver
         }
     }
 
+    public void hasHistoryTable(int id, String winner, String process) {
+        JTableDriver table=new JTableDriver(this);
+        table.hasRow(matching(withLabelText(valueOf(id)), withLabelText(winner),
+                withLabelText(process)));
+    }
 }

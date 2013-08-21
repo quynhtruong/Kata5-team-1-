@@ -54,4 +54,13 @@ public class ApplicationRunner
     {
           ticTacToeDriver.button(position).click();
     }
+
+
+    public void showHistory() {
+        ticTacToeDriver.button("btHistory").click();
+    }
+
+    public void hasHistoryTableInUI() {
+        ticTacToeDriver.hasHistoryTable(1,"X","0,1,4,7,8,");
+    }
 }

@@ -2,13 +2,16 @@ package com.qsoft.tictactoe.ui;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
+import com.qsoft.tictactoe.entity.GameEntity;
 import com.qsoft.tictactoe.ui.controller.ActionEventListener;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
+import java.util.*;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -34,6 +37,9 @@ public class MainGUI extends JFrame
     private JLabel lbGameStatus;
     private JButton bt3;
     private JLabel lbGameResult;
+    private JButton btHistory;
+    private JTable tbHistory;
+    private DefaultTableModel tableModel;
     ArrayList<JButton> buttonList = new ArrayList<JButton>();
 
     public void showUI()
@@ -68,6 +74,16 @@ public class MainGUI extends JFrame
     public ArrayList<JButton> getButtonList()
     {
         return buttonList;
+    }
+
+    public JButton getBtHistory()
+    {
+        return btHistory;
+    }
+
+    public JTable getTbHistory()
+    {
+        return tbHistory;
     }
 
     public JButton getBt0()
@@ -153,6 +169,24 @@ public class MainGUI extends JFrame
         {
             button.addActionListener(listener);
         }
+        btHistory.addActionListener(listener);
+    }
+
+    public void createHistoryTable(List<GameEntity> listGameFinished)
+    {
+        tableModel = (DefaultTableModel) tbHistory.getModel();
+        tableModel.addColumn("Id");
+        tableModel.addColumn("Winner");
+        tableModel.addColumn("Process");
+        for (GameEntity gameEntity : listGameFinished)
+        {
+            tableModel.addRow(new Object[]{gameEntity.getId(), gameEntity.getWinner(), gameEntity.getProcess()});
+        }
+    }
+
+    private void createUIComponents()
+    {
+        tbHistory = new JTable();
     }
 
     {
@@ -174,6 +208,7 @@ public class MainGUI extends JFrame
         panel1 = new JPanel();
         panel1.setLayout(new FormLayout("fill:d:grow,left:4dlu:noGrow,fill:max(d;4px):noGrow", "center:d:noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow"));
         lbGameStatus = new JLabel();
+        lbGameStatus.setHorizontalAlignment(0);
         lbGameStatus.setName("gameStatus");
         lbGameStatus.setText("");
         CellConstraints cc = new CellConstraints();
@@ -285,7 +320,7 @@ public class MainGUI extends JFrame
         gbc.fill = GridBagConstraints.BOTH;
         panel3.add(bt8, gbc);
         final JPanel panel4 = new JPanel();
-        panel4.setLayout(new FormLayout("fill:72px:grow", "center:d:noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow"));
+        panel4.setLayout(new FormLayout("fill:85px:grow", "center:d:noGrow,top:4dlu:noGrow,center:22px:noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow"));
         panel2.add(panel4, cc.xy(5, 1));
         btStart = new JButton();
         btStart.setLabel("Start");
@@ -297,7 +332,12 @@ public class MainGUI extends JFrame
         btStop.setName("btStop");
         btStop.setText("Stop");
         panel4.add(btStop, cc.xy(1, 3));
+        btHistory = new JButton();
+        btHistory.setName("btHistory");
+        btHistory.setText("History");
+        panel4.add(btHistory, cc.xy(1, 5));
         lbGameResult = new JLabel();
+        lbGameResult.setHorizontalAlignment(0);
         lbGameResult.setName("gameResult");
         lbGameResult.setText("");
         panel1.add(lbGameResult, cc.xy(1, 5));

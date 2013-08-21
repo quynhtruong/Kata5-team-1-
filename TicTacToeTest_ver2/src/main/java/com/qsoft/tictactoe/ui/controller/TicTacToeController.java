@@ -1,5 +1,7 @@
 package com.qsoft.tictactoe.ui.controller;
 
+import com.qsoft.tictactoe.entity.GameEntity;
+import com.qsoft.tictactoe.service.TicTacToeService;
 import com.qsoft.tictactoe.ui.MainGUI;
 import com.qsoft.tictactoe.ui.controller.ActionEventListener;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,9 +27,12 @@ public class TicTacToeController implements ActionEventListener
 {
     @Autowired
     private MainGUI mainGUI;
+
+    @Autowired
+    private TicTacToeService ticTacToeService;
+
     private int numOfStep = 0;
     private String steps[] = new String[9];
-
     @Override
     public void actionPerformed(ActionEvent actionEvent)
     {
@@ -41,7 +47,10 @@ public class TicTacToeController implements ActionEventListener
             mainGUI.getLbGameStatus().setText("Game stopped");
             showResult(calculateResult(steps));
         }
-
+        else if(source.equals(mainGUI.getBtHistory())) {
+            List<GameEntity> gameEntityList=ticTacToeService.getAllGameFinished();
+            mainGUI.createHistoryTable(gameEntityList);
+        }
         else
         {
             for (JButton button : mainGUI.getButtonList())
@@ -86,6 +95,7 @@ public class TicTacToeController implements ActionEventListener
         else
         {
             mainGUI.getLbGameResult().setText("The winner is " + result);
+
         }
     }
 

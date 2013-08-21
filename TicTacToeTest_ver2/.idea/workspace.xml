@@ -4,20 +4,20 @@
     <list default="true" id="30ccfff5-b3e4-4bb6-affd-021a654f6234" name="Default" comment="" />
     <ignored path="TicTacToeTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376965072933" ignored="false" />
+    <file path="/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377012365035" ignored="false" />
     <file path="/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973934351" ignored="false" />
     <file path="/fragment.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973786582" ignored="false" />
-    <file path="/ApplicationRunner.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376875582093" ignored="false" />
-    <file path="/TicTacToeDriver.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376620316925" ignored="false" />
+    <file path="/ApplicationRunner.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377012420790" ignored="false" />
+    <file path="/TicTacToeDriver.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377012766004" ignored="false" />
     <file path="E:/../../TicTacToeTest_15/TicTacToeTest_15/src/test/java/com/qsoft/TicTacToe/TicTacToeUIDriver.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376616698608" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeMain.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618198878" ignored="false" />
-    <file path="/TicTacToeMain.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621632270" ignored="false" />
+    <file path="/TicTacToeMain.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377015376140" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376618455242" ignored="false" />
     <file path="/application-context.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376972290599" ignored="false" />
-    <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376876102784" ignored="false" />
+    <file path="/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377016831192" ignored="false" />
     <file path="/ActionEventListener.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376621553291" ignored="false" />
-    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376966057898" ignored="false" />
-    <file path="/a.dummy" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376622154204" ignored="false" />
+    <file path="/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377017095785" ignored="false" />
+    <file path="/a.dummy" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377017201759" ignored="false" />
     <file path="$USER_HOME$/Desktop/TDD/19_8_2013/trunk/TicTacToeTest_ver2/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376881913605" ignored="false" />
     <file path="$USER_HOME$/Desktop/examSpring/SpringOsgiTest/pom.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376879901144" ignored="false" />
     <file path="$USER_HOME$/Desktop/TDD/19_8_2013/trunk/TicTacToeTest_ver2/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376880789104" ignored="false" />
@@ -27,7 +27,7 @@
     <file path="/persistenceTest.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376968737200" ignored="false" />
     <file path="/TicTacToeServiceTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376971006347" ignored="false" />
     <file path="/TicTacToeService.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376969724493" ignored="false" />
-    <file path="/TicTacToeServiceImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376971072667" ignored="false" />
+    <file path="/TicTacToeServiceImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377015507517" ignored="false" />
     <file path="/TicTacToeDaoImpl.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974418811" ignored="false" />
     <file path="/TicTacToeDaoTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376974371294" ignored="false" />
     <file path="/application-contextTest.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973848425" ignored="false" />
@@ -35,6 +35,8 @@
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/test/java/com/qsoft/UnitTest/TicTacToeDAOTest.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973459387" ignored="false" />
     <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/main/resources/spring-config.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973759949" ignored="false" />
     <file path="/Dummy.txt" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1376973786582" ignored="false" />
+    <file path="/dataset.xml" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377015958054" ignored="false" />
+    <file path="$PROJECT_DIR$/../TicTacToeTest_ver1/src/main/java/com/qsoft/TicTacToe/ui/MainGUI.java" changelist="30ccfff5-b3e4-4bb6-affd-021a654f6234" time="1377016738528" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,48 +100,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application-contextTest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/application-contextTest.xml">
+      <file leaf-file-name="TicTacToeDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="55" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0">
+            <state line="13" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TicTacToeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="39" selection-start="775" selection-end="775" vertical-scroll-proportion="0.9636804">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="1" selection-start="1925" selection-end="2171" vertical-scroll-proportion="0.0">
+            <state line="21" column="43" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-tx-3.2.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE.jar!/org/springframework/transaction/config/spring-tx-3.2.xsd">
+      <file leaf-file-name="TicTacToeServiceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="4" selection-start="2694" selection-end="2694" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="17" selection-start="4156" selection-end="4156" vertical-scroll-proportion="-10.32">
+            <state line="26" column="25" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,7 +130,7 @@
       <file leaf-file-name="TicTacToeDaoTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="23" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0">
+            <state line="84" column="6" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,19 +138,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_43/src.zip!/java/util/List.java">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="12" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+            <state line="111" column="30" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-4.24">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicTacToeDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
+      <file leaf-file-name="ApplicationRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="16" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+            <state line="63" column="34" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeDriver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="16" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,21 +167,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
+      <file leaf-file-name="TicTacToeMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="24" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+            <state line="22" column="16" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
+      <file leaf-file-name="TicTacToeController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="97" column="0" selection-start="2955" selection-end="2955" vertical-scroll-proportion="3.1834626">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGUI.form" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -204,22 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/dataset.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/application-contextTest.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java" />
+        <option value="dbtable:/77f22d6c/d31a8a8b-57a9-48f7-b8d2-3b76a2f39398/dbcatalog.public.game" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java" />
+        <option value="dbtable:/77f22d6c/d31a8a8b-57a9-48f7-b8d2-3b76a2f39398/dbcatalog.public.game_id_seq" />
+        <option value="$PROJECT_DIR$/src/test/resources/dataset.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java" />
       </list>
     </option>
   </component>
@@ -292,8 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -550,6 +546,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToeTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToeTest_ver2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tictactoe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -684,6 +714,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -695,9 +727,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propGUI" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TicTacToeTest_ver1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="Database.TableEditor.Splitter" value="1.0" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -718,7 +751,35 @@
       <recent name="E:\kata5\TicTacToeTest_ver2\src\main\java\com\qsoft\tictactoe\ui" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeDaoTest.testSaveGame">
+  <component name="RunManager" selected="JUnit.TicTacToeTest.testShowHistory">
+    <configuration default="false" name="TicTacToeServiceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qsoft.unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TicTacToeTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -747,19 +808,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TicTacToeServiceTest.testSaveGame" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TicTacToeTest.testShowHistory" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qsoft.unitTest.*" />
+          <option name="PATTERN" value="com.qsoft.acceptanceTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TicTacToeTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeServiceTest" />
-      <option name="METHOD_NAME" value="testSaveGame" />
+      <option name="PACKAGE_NAME" value="com.qsoft.acceptanceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.acceptanceTest.TicTacToeTest" />
+      <option name="METHOD_NAME" value="testShowHistory" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -771,39 +832,39 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TicTacToeServiceTest.testGetAllGameFinished" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TicTacToeMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qsoft.unitTest.*" />
+          <option name="PATTERN" value="com.qsoft.tictactoe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="TicTacToeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.tictactoe.TicTacToeMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeServiceTest" />
-      <option name="METHOD_NAME" value="testGetAllGameFinished" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="TicTacToeTest" />
       <envs />
-      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TicTacToeDaoTest.testGetListGameThatFinished" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TicTacToeDaoTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.qsoft.unitTest.*" />
@@ -815,36 +876,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
       <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeDaoTest" />
-      <option name="METHOD_NAME" value="testGetListGameThatFinished" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TicTacToeDaoTest.testSaveGame" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qsoft.unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TicTacToeTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.qsoft.unitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.qsoft.unitTest.TicTacToeDaoTest" />
-      <option name="METHOD_NAME" value="testSaveGame" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -957,19 +990,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testSaveGame" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testShowHistory" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TicTacToeMain" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testSaveGame" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest.testGetListGameThatFinished" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testGetAllGameFinished" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest.testSaveGame" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TicTacToeTest.testShowHistory" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TicTacToeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TicTacToeServiceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TicTacToeDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TicTacToeMain" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -978,6 +1011,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1008,31 +1046,31 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.9776848" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18404119" sideWeight="0.67085075" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26769626" sideWeight="0.64156204" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25383544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18339768" sideWeight="0.9776848" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14800514" sideWeight="0.9776848" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41841003" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20205921" sideWeight="0.64156204" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35843793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.67085075" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.6052999" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39470014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1091,124 +1129,122 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
+        <state line="151" column="71" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="145" column="71" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/ActionEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="143" selection-end="161" vertical-scroll-proportion="-2.04">
+        <state line="11" column="17" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TicTacToeTest.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/TicTacToeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/persistenceTest.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/service/impl/TicTacToeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="46" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE.jar!/org/springframework/transaction/config/spring-tx-3.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="4" selection-start="2694" selection-end="2694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="1925" selection-end="2171" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application-contextTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="55" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="17" selection-start="4156" selection-end="4156" vertical-scroll-proportion="-10.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/dataset.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+        <state line="27" column="7" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/entity/GameEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+        <state line="21" column="50" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_43/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="12" selection-start="5335" selection-end="5335" vertical-scroll-proportion="0.0">
+        <state line="13" column="17" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="43" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="25" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/unitTest/TicTacToeDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="23" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0">
+        <state line="84" column="6" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/TicTacToeDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/MainGUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+        <state line="111" column="30" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-4.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/ApplicationRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="34" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qsoft/acceptanceTest/TicTacToeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="16" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/dao/impl/TicTacToeDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/TicTacToeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="775" selection-end="775" vertical-scroll-proportion="0.9636804">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="16" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qsoft/tictactoe/ui/controller/TicTacToeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="2955" selection-end="2955" vertical-scroll-proportion="3.1834626">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -16,6 +16,7 @@ public class TicTacToeMain
 {
     public TicTacToeMain()
     {
+
     }
 
     public void showMainUI()
@@ -28,6 +29,7 @@ public class TicTacToeMain
     public static void main(String[] args)
     {
         new TicTacToeMain();
+
     }
 
 }

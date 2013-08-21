@@ -21,6 +21,7 @@
           <forms/>
         </constraints>
         <properties>
+          <horizontalAlignment value="0"/>
           <name value="gameStatus"/>
           <text value=""/>
         </properties>
@@ -151,8 +152,12 @@
           <grid id="ee33e" layout-manager="FormLayout">
             <rowspec value="center:d:noGrow"/>
             <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:22px:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
             <rowspec value="center:max(d;4px):noGrow"/>
-            <colspec value="fill:72px:grow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:85px:grow"/>
             <constraints>
               <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
               <forms/>
@@ -182,6 +187,16 @@
                   <text value="Stop"/>
                 </properties>
               </component>
+              <component id="f9ead" class="javax.swing.JButton" binding="btHistory">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <name value="btHistory"/>
+                  <text value="History"/>
+                </properties>
+              </component>
             </children>
           </grid>
         </children>
@@ -192,6 +207,7 @@
           <forms/>
         </constraints>
         <properties>
+          <horizontalAlignment value="0"/>
           <name value="gameResult"/>
           <text value=""/>
         </properties>

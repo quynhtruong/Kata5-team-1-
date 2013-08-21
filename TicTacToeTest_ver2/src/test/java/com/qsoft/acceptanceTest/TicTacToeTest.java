@@ -21,6 +21,32 @@ public class TicTacToeTest
         applicationRunner.showMainUI();
     }
 
+    private void playAllMatch() {
+        applicationRunner.move("0");
+        applicationRunner.move("1");
+        applicationRunner.move("2");
+        applicationRunner.move("5");
+        applicationRunner.move("3");
+        applicationRunner.move("6");
+        applicationRunner.move("4");
+        applicationRunner.move("8");
+        applicationRunner.move("7");
+    }
+    private void playSomethingAndWinnerIsX() {
+        applicationRunner.move("0");
+        applicationRunner.move("1");
+        applicationRunner.move("4");
+        applicationRunner.move("7");
+        applicationRunner.move("8");
+    }
+    private void playSomethingAndTheWinnerIsO() {
+        applicationRunner.move("1");
+        applicationRunner.move("2");
+        applicationRunner.move("3");
+        applicationRunner.move("4");
+        applicationRunner.move("5");
+        applicationRunner.move("6");
+    }
     @Test
     public void testTheOriginalUI()
     {
@@ -28,6 +54,7 @@ public class TicTacToeTest
         applicationRunner.hasLabelWithNameAndText("gameResult", "");
         applicationRunner.hasButtonWithNameAndText("btStart", "Start");
         applicationRunner.hasButtonWithNameAndText("btStop", "Stop");
+        applicationRunner.hasButtonWithNameAndText("btHistory","History");
         applicationRunner.hasBoardWithNineButton();
     }
 
@@ -58,29 +85,35 @@ public class TicTacToeTest
 
     }
     @Test
-     public void testPlayAllMatchAndNoOneWin(){
+    public void testPlayAllMatchAndNoOneWin(){
         applicationRunner.startGame();
-        applicationRunner.move("0");
-        applicationRunner.move("1");
-        applicationRunner.move("2");
-        applicationRunner.move("5");
-        applicationRunner.move("3");
-        applicationRunner.move("6");
-        applicationRunner.move("4");
-        applicationRunner.move("8");
-        applicationRunner.move("7");
+        playAllMatch();
         applicationRunner.hasLabelWithNameAndText("gameResult","No one wins");
     }
+
     @Test
     public void testPlaySomethingAndTheWinnerIsX(){
         applicationRunner.startGame();
-        applicationRunner.move("0");
-        applicationRunner.move("1");
-        applicationRunner.move("4");
-        applicationRunner.move("7");
-        applicationRunner.move("8");
+        playSomethingAndWinnerIsX();
         applicationRunner.hasLabelWithNameAndText("gameResult","The winner is X");
     }
+
+    @Test
+    public void testPlaySomethingAndTheWinnerIsO(){
+        applicationRunner.startGame();
+        playSomethingAndTheWinnerIsO();
+        applicationRunner.hasLabelWithNameAndText("gameResult","The winner is O");
+    }
+
+    @Test
+    public void testShowHistory(){
+        applicationRunner.startGame();
+        playSomethingAndWinnerIsX();
+        applicationRunner.showHistory();
+        applicationRunner.hasHistoryTableInUI();
+    }
+
+
     @After
     public void releaseMemory()
     {

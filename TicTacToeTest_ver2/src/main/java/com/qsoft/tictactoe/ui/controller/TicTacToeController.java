@@ -96,6 +96,11 @@ public class TicTacToeController implements ActionEventListener
         {
             mainGUI.getLbGameResult().setText("The winner is " + result);
 
+            //save win game to Database
+
+            ticTacToeService.save(new GameEntity("X","0,1,4,7,8,"));
+
+
         }
     }
 

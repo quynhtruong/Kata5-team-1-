@@ -205,8 +205,9 @@ public class MainGUI extends JFrame
      */
     private void $$$setupUI$$$()
     {
+        createUIComponents();
         panel1 = new JPanel();
-        panel1.setLayout(new FormLayout("fill:d:grow,left:4dlu:noGrow,fill:max(d;4px):noGrow", "center:d:noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow"));
+        panel1.setLayout(new FormLayout("fill:d:grow,left:4dlu:noGrow,fill:max(d;4px):noGrow", "center:d:noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow,top:4dlu:noGrow,center:max(d;4px):noGrow"));
         lbGameStatus = new JLabel();
         lbGameStatus.setHorizontalAlignment(0);
         lbGameStatus.setName("gameStatus");
@@ -341,6 +342,13 @@ public class MainGUI extends JFrame
         lbGameResult.setName("gameResult");
         lbGameResult.setText("");
         panel1.add(lbGameResult, cc.xy(1, 5));
+        final JPanel panel5 = new JPanel();
+        panel5.setLayout(new BorderLayout(0, 0));
+        panel1.add(panel5, cc.xy(1, 7));
+        final JScrollPane scrollPane1 = new JScrollPane();
+        panel5.add(scrollPane1, BorderLayout.CENTER);
+        tbHistory.setName("tbHistory");
+        scrollPane1.setViewportView(tbHistory);
     }
 
     /**
